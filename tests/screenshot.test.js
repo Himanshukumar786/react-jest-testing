@@ -10,3 +10,5 @@ test('should render the button', async ( { page }) => {
     // await expect(page).toHaveScreenshot({ maxDiffPixels: 100 });
     await page.screenshot({path: `screenshots/ss-${page.viewportSize().width}.png`});
 });
+
+// command for run the test -> npx playwright test
